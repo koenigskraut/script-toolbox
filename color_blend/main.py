@@ -64,5 +64,5 @@ if __name__ == "__main__":
     closure_error = deviation_closure(base2, over2)
     results_error = list(map(closure_error, results_alpha))
     results_error.sort(key=lambda r: r[1])
-    print(results_error[0][0])
+    print(results_error[0][0].to_hex(), results_error[0][0].a)
 
