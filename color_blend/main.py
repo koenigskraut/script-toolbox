@@ -1,8 +1,7 @@
 from dataclasses import dataclass
+from functools import partial
 
-
-def htoi(h: str) -> int:
-    return int(h, 16)
+htoi = partial(int, base=16)
 
 
 @dataclass(eq=True, frozen=True)
@@ -30,26 +29,20 @@ class Color:
         return Color(*map(round, self.over_precise(other)))
 
 
-def guess_closure(base: Color, over: Color):
-    def guess_color(opacity: int) -> Color | None:
-        alpha = opacity / 100
-        r = (over.r + base.r * (-1 + alpha)) / alpha
-        g = (over.g + base.g * (-1 + alpha)) / alpha
-        b = (over.b + base.b * (-1 + alpha)) / alpha
-        if any(i < 0 for i in (r, g, b)):
-            return None
-        return Color(*map(round, [r, g, b]), a=alpha)
-
-    return guess_color
+def guess_color(base: Color, over: Color, opacity: int) -> Color | None:
+    alpha = opacity / 100
+    r = (over.r + base.r * (-1 + alpha)) / alpha
+    g = (over.g + base.g * (-1 + alpha)) / alpha
+    b = (over.b + base.b * (-1 + alpha)) / alpha
+    if any(i < 0 for i in (r, g, b)):
+        return None
+    return Color(*map(round, [r, g, b]), a=alpha)
 
 
-def deviation_closure(base: Color, over: Color):
-    def find_deviation(guessed: Color):
-        precise = base.over_precise(guessed)
-        return (guessed, (over.r - precise[0]) ** 2 + (over.g - precise[1]) ** 2 +
-                (over.b - precise[2]) ** 2)
-
-    return find_deviation
+def find_deviation(base: Color, over: Color, guessed: Color):
+    precise = base.over_precise(guessed)
+    return (guessed, (over.r - precise[0]) ** 2 + (over.g - precise[1]) ** 2 +
+            (over.b - precise[2]) ** 2)
 
 
 if __name__ == "__main__":
@@ -58,11 +51,10 @@ if __name__ == "__main__":
     base1, over1 = Color.from_hex(b1), Color.from_hex(o1)
     base2, over2 = Color.from_hex(b2), Color.from_hex(o2)
 
-    closure_alpha = guess_closure(base1, over1)
+    closure_alpha = partial(guess_color, base1, over1)
     results_alpha = filter(lambda x: x is not None, map(closure_alpha, range(1, 100)))
 
-    closure_error = deviation_closure(base2, over2)
+    closure_error = partial(find_deviation, base2, over2)
     results_error = list(map(closure_error, results_alpha))
     results_error.sort(key=lambda r: r[1])
     print(results_error[0][0].to_hex(), results_error[0][0].a)
-
