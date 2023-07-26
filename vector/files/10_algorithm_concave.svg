@@ -221,11 +221,11 @@
 	<text transform="matrix(1 0 0 1 62.9297 20.0127)" class="st9 st2 st12">2</text>
 	<text transform="matrix(1 0 0 1 69.6587 4.6802)" class="st9 st2 st11">P</text>
 	<text transform="matrix(1 0 0 1 71.9297 6.0127)" class="st9 st2 st12">3</text>
-	<text transform="matrix(1 0 0 1 47.063 12.2871)" class="st13 st2 st6">I</text>
-	<text transform="matrix(1 0 0 1 48.0352 13.2861)" class="st13 st2 st7">1</text>
+	<text transform="matrix(1 0 0 1 46.613 12.2871)" class="st13 st2 st6">O</text>
+	<text transform="matrix(0.583 0 0 0.583 48.573 13.2861)" class="st13 st2 st6">1</text>
 	<circle class="st13" cx="47.5" cy="13.5" r="0.3"/>
-	<text transform="matrix(1 0 0 1 60.6583 12.0001)" class="st13 st2 st6">I</text>
-	<text transform="matrix(1 0 0 1 61.6309 12.999)" class="st13 st2 st7">2</text>
+	<text transform="matrix(1 0 0 1 59.824 12.0235)" class="st13 st2 st6">O</text>
+	<text transform="matrix(0.583 0 0 0.583 61.784 13.0226)" class="st13 st2 st6">2</text>
 	<circle class="st13" cx="62.5" cy="13.5" r="0.3"/>
 </g>
 <g id="_x33_">
