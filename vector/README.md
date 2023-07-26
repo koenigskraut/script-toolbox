@@ -191,7 +191,7 @@ But wait, the algorithm above only works for a convex curve! Indeed, for a conca
 4. the resulting trapezoid $P_0 N_1 N_2 P_3$ is our polygon approximation.
 
 <p align="center" >
-<img src="https://github.com/koenigskraut/script-toolbox/raw/master/vector/files/10_algorithm_concave.svg" alt="" width="100%"/>
+<img src="https://raw.githubusercontent.com/koenigskraut/script-toolbox/4b08fb9d7563f244c6083d4d85060322479ad502/vector/files/10_algorithm_concave.svg" alt="" width="100%"/>
 </p>
 
 ### Inflecting curve
