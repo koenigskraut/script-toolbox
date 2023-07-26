@@ -262,3 +262,8 @@ So, the simplest way I can think of to iterate over what we have at hand is as f
     <img src="https://github.com/koenigskraut/script-toolbox/raw/master/vector/files/18_concave_iterative.svg" alt="" width="100%"/>
     </p>
 
+So after this one step we can stop and enjoy our more final approximation:
+
+<p align="center" >
+<img src="https://github.com/koenigskraut/script-toolbox/raw/master/vector/files/19_one_step_approx.svg" alt="" width="100%"/>
+</p>
