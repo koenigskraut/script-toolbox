@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 140 35" style="enable-background:new 0 0 140 35;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:none;stroke:#E64553;stroke-width:0.1;stroke-miterlimit:10;}
+	.st3{fill:#E64553;}
+	.st4{font-family:'CambriaMath';}
+	.st5{font-size:4px;}
+	.st6{font-size:2.332px;}
+	.st7{font-size:3.9998px;}
+	.st8{font-size:2.3319px;}
+	.st9{fill:none;stroke:#1E66F5;stroke-width:0.1;stroke-miterlimit:10;}
+	.st10{fill:#1E66F5;}
+	.st11{font-size:3.9997px;}
+	.st12{font-size:2.3318px;}
+	.st13{fill:none;stroke:#FE640B;stroke-width:0.1;stroke-miterlimit:10;}
+	.st14{fill:#FE640B;}
+	.st15{fill:none;stroke:#8839EF;stroke-width:0.1;stroke-miterlimit:10;}
+	.st16{fill:#8839EF;}
+	.st17{font-size:4.0006px;}
+	.st18{font-size:2.3323px;}
+	.st19{opacity:0.7;fill:#40A02B;enable-background:new    ;}
+	.st20{fill:none;stroke:#E64553;stroke-width:0.3;stroke-miterlimit:10;}
+	.st21{fill:none;stroke:#1E66F5;stroke-width:0.3;stroke-miterlimit:10;}
+	.st22{fill:none;stroke:#FE640B;stroke-width:0.3;stroke-miterlimit:10;}
+	.st23{fill:none;stroke:#8839EF;stroke-width:0.3;stroke-miterlimit:10;}
+</style>
+<g id="surface1" class="st0">
+	<g id="first" class="st1">
+		<line class="st2" x1="10" y1="15" x2="20" y2="5"/>
+		<line class="st2" x1="30" y1="5" x2="20" y2="5"/>
+		<line class="st2" x1="30" y1="5" x2="40" y2="15"/>
+		<circle class="st3" cx="10" cy="15" r="0.2"/>
+		<circle class="st3" cx="20" cy="5" r="0.2"/>
+		<circle class="st3" cx="30" cy="5" r="0.2"/>
+		<circle class="st3" cx="40" cy="15" r="0.2"/>
+		<text transform="matrix(1 0 0 1 6.3381 15.2542)" class="st3 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 8.6094 16.5864)" class="st3 st4 st6">0</text>
+		<text transform="matrix(1 0 0 1 18.2343 4.5085)" class="st3 st4 st7">P</text>
+		<text transform="matrix(1 0 0 1 20.5059 5.8408)" class="st3 st4 st8">1</text>
+		<text transform="matrix(1 0 0 1 28.3382 4.5081)" class="st3 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 30.6094 5.8403)" class="st3 st4 st6">2</text>
+		<text transform="matrix(1 0 0 1 41.3381 15.5083)" class="st3 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 43.6094 16.8408)" class="st3 st4 st6">3</text>
+	</g>
+	<g id="second" class="st1">
+		<line class="st9" x1="50" y1="25" x2="40" y2="15"/>
+		<line class="st9" x1="60" y1="25" x2="50" y2="25"/>
+		<line class="st9" x1="70" y1="15" x2="60" y2="25"/>
+		<circle class="st10" cx="40" cy="15" r="0.2"/>
+		<circle class="st10" cx="50" cy="25" r="0.2"/>
+		<circle class="st10" cx="60" cy="25" r="0.2"/>
+		<circle class="st10" cx="70" cy="15" r="0.2"/>
+		<text transform="matrix(1 0 0 1 36.338 15.5081)" class="st10 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 38.6094 16.8403)" class="st10 st4 st6">0</text>
+		<text transform="matrix(1 0 0 1 48.3384 28.5088)" class="st10 st4 st11">P</text>
+		<text transform="matrix(1 0 0 1 50.6094 29.8408)" class="st10 st4 st12">1</text>
+		<text transform="matrix(1 0 0 1 58.3379 28.5088)" class="st10 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 60.6094 29.8408)" class="st10 st4 st6">2</text>
+		<text transform="matrix(1 0 0 1 71.3381 15.508)" class="st10 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 73.6094 16.8403)" class="st10 st4 st6">3</text>
+	</g>
+	<g id="third" class="st1">
+		<line class="st13" x1="80" y1="5" x2="70" y2="15"/>
+		<line class="st13" x1="90" y1="25" x2="80" y2="5"/>
+		<line class="st13" x1="90" y1="25" x2="100" y2="15"/>
+		<circle class="st14" cx="70" cy="15" r="0.2"/>
+		<circle class="st14" cx="80" cy="5" r="0.2"/>
+		<circle class="st14" cx="90" cy="25" r="0.2"/>
+		<circle class="st14" cx="100" cy="15" r="0.2"/>
+		<text transform="matrix(1 0 0 1 66.3381 15.5081)" class="st14 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 68.6094 16.8403)" class="st14 st4 st6">0</text>
+		<text transform="matrix(1 0 0 1 78.3377 4.3226)" class="st14 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 80.6093 5.6548)" class="st14 st4 st6">1</text>
+		<text transform="matrix(1 0 0 1 88.3382 28.5081)" class="st14 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 90.6094 29.8403)" class="st14 st4 st6">2</text>
+		<text transform="matrix(1 0 0 1 100.4689 15.2541)" class="st14 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 102.7402 16.5864)" class="st14 st4 st6">3</text>
+	</g>
+	<g id="fourth" class="st1">
+		<line class="st15" x1="110" y1="25" x2="100" y2="15"/>
+		<line class="st15" x1="120" y1="5" x2="110" y2="25"/>
+		<line class="st15" x1="120" y1="5" x2="130" y2="15"/>
+		<circle class="st16" cx="100" cy="15" r="0.2"/>
+		<circle class="st16" cx="110" cy="25" r="0.2"/>
+		<circle class="st16" cx="120" cy="5" r="0.2"/>
+		<circle class="st16" cx="130" cy="15" r="0.2"/>
+		<text transform="matrix(1 0 0 1 96.3376 15.5084)" class="st16 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 98.6094 16.8408)" class="st16 st4 st6">0</text>
+		<text transform="matrix(1 0 0 1 108.3378 28.5079)" class="st16 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 110.6094 29.8401)" class="st16 st4 st6">1</text>
+		<text transform="matrix(0.9998 0 0 1 118.3378 4.3223)" class="st16 st4 st17">P</text>
+		<text transform="matrix(0.9998 0 0 1 120.6093 5.6548)" class="st16 st4 st18">2</text>
+		<text transform="matrix(1 0 0 1 130.4689 15.2541)" class="st16 st4 st5">P</text>
+		<text transform="matrix(1 0 0 1 132.7402 16.5864)" class="st16 st4 st6">3</text>
+	</g>
+</g>
+<path class="st19" d="M10,15C20,5,30,5,40,15s20,10,30,0s20,10,30,0c10,10,20-10,30,0v15H10V15z"/>
+<path class="st20" d="M10,15C20,5,30,5,40,15"/>
+<path class="st21" d="M40,15c10,10,20,10,30,0"/>
+<path class="st22" d="M70,15c10-10,20,10,30,0"/>
+<path class="st23" d="M100,15c10,10,20-10,30,0"/>
+</svg>
