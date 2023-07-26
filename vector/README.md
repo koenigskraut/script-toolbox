@@ -219,7 +219,7 @@ For the convex one we'll use the convex curve algorithm:
 4. the resulting trapezoid is our polygon approximation.
 
 <p align="center" >
-<img src="https://github.com/koenigskraut/script-toolbox/raw/master/vector/files/13_inflecting_convex.svg" alt="" width="100%"/>
+<img src="https://raw.githubusercontent.com/koenigskraut/script-toolbox/dfd82aa8b955efe40c45fb6a48e0cb9e4f23adb3/vector/files/13_inflecting_convex.svg" alt="" width="100%"/>
 </p>
 
 And for the concave one we'll use the respective concave curve algorithm:
